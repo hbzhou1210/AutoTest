@@ -30,9 +30,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.GroupOnMethod">
     <configuration name="C:/Users/87007/Desktop/workspace/AutoTest/Chapter/src/main/resources/suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter/src/main/resources/suite.xml" />
@@ -43,8 +43,82 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GroupOnMethod (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.testng.groups.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.testng.groups" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.groups.GroupOnMethod" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupOnMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.testng.groups.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.testng.groups" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.groups.GroupOnMethod" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupOnMethod.groupsClient2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.testng.groups.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.testng.groups" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.groups.GroupOnMethod" />
+      <option name="METHOD_NAME" value="groupsClient2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupOnMethod.groupsServer2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.testng.groups.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.testng.groups" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.groups.GroupOnMethod" />
+      <option name="METHOD_NAME" value="groupsServer2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GroupOnMethod" />
+        <item itemvalue="TestNG.GroupOnMethod (1)" />
+        <item itemvalue="TestNG.GroupOnMethod.groupsClient2" />
+        <item itemvalue="TestNG.GroupOnMethod.groupsServer2" />
         <item itemvalue="TestNG.C:/Users/87007/Desktop/workspace/AutoTest/Chapter/src/main/resources/suite.xml" />
       </list>
     </recent_temporary>
@@ -70,5 +144,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/AutoTest" />
+    </ignored-roots>
   </component>
 </project>
