@@ -32,10 +32,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="TestNG.GroupOnMethod">
-    <configuration name="C:/Users/87007/Desktop/workspace/AutoTest/Chapter/src/main/resources/suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.expectedException.RuntimeExceptionSuccess">
+    <configuration name="E:/workspace/AutoTest/Chapter/src/main/resources/GroupsOnClass.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter/src/main/resources/suite.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter/src/main/resources/GroupsOnClass.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -43,16 +43,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupOnMethod (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="E:/workspace/AutoTest/Chapter/src/main/resources/groups.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter/src/main/resources/groups.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IgnoreTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.course.testng.groups.*" />
+          <option name="PATTERN" value="com.course.testng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.course.testng.groups" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.groups.GroupOnMethod" />
+      <option name="PACKAGE_NAME" value="com.course.testng" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.IgnoreTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -60,7 +70,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupOnMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="expectedException" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter" />
       <extension name="coverage">
         <pattern>
@@ -69,7 +79,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.course.testng.groups" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.groups.GroupOnMethod" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.groups.expectedException" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -77,7 +87,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupOnMethod.groupsClient2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="expectedException.RuntimeExceptionSuccess" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter" />
       <extension name="coverage">
         <pattern>
@@ -86,26 +96,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.course.testng.groups" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.groups.GroupOnMethod" />
-      <option name="METHOD_NAME" value="groupsClient2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupOnMethod.groupsServer2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.testng.groups.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.course.testng.groups" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.groups.GroupOnMethod" />
-      <option name="METHOD_NAME" value="groupsServer2" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.groups.expectedException" />
+      <option name="METHOD_NAME" value="RuntimeExceptionSuccess" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -115,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GroupOnMethod" />
-        <item itemvalue="TestNG.GroupOnMethod (1)" />
-        <item itemvalue="TestNG.GroupOnMethod.groupsClient2" />
-        <item itemvalue="TestNG.GroupOnMethod.groupsServer2" />
-        <item itemvalue="TestNG.C:/Users/87007/Desktop/workspace/AutoTest/Chapter/src/main/resources/suite.xml" />
+        <item itemvalue="TestNG.expectedException.RuntimeExceptionSuccess" />
+        <item itemvalue="TestNG.expectedException" />
+        <item itemvalue="TestNG.E:/workspace/AutoTest/Chapter/src/main/resources/GroupsOnClass.xml" />
+        <item itemvalue="TestNG.E:/workspace/AutoTest/Chapter/src/main/resources/groups.xml" />
+        <item itemvalue="TestNG.IgnoreTest" />
       </list>
     </recent_temporary>
   </component>

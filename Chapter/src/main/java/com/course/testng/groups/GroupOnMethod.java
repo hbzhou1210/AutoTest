@@ -1,5 +1,6 @@
 package com.course.testng.groups;
 
+
 import org.testng.annotations.AfterGroups;
 import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.Test;
@@ -17,7 +18,6 @@ public class GroupOnMethod {
     public void BeforeGroupsOnServer(){
         System.out.println("这是服务端组之前运行的方法");
     }
-
     @AfterGroups("server")
     public void AfterGroupsOnServer(){
         System.out.println("这是服务端组之后运行的方法");
