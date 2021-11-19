@@ -32,37 +32,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="TestNG.expectedException.RuntimeExceptionSuccess">
-    <configuration name="E:/workspace/AutoTest/Chapter/src/main/resources/GroupsOnClass.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter/src/main/resources/GroupsOnClass.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E:/workspace/AutoTest/Chapter/src/main/resources/groups.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter/src/main/resources/groups.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IgnoreTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.E:/workspace/AutoTest/Chapter/src/main/resources/parameter.xml">
+    <configuration name="DependTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.course.testng.*" />
+          <option name="PATTERN" value="com.course.testng.suite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.course.testng" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.IgnoreTest" />
+      <option name="PACKAGE_NAME" value="com.course.testng.suite" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.suite.DependTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -70,16 +50,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="expectedException" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DependTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.course.testng.groups.*" />
+          <option name="PATTERN" value="com.course.testng.suite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.course.testng.groups" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.groups.expectedException" />
+      <option name="PACKAGE_NAME" value="com.course.testng.suite" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.suite.DependTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E:/workspace/AutoTest/Chapter/src/main/resources/parameter.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter/src/main/resources/parameter.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParameterTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.testng.parameter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.testng.parameter" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.parameter.ParameterTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -87,17 +95,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="expectedException.RuntimeExceptionSuccess" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ParameterTest.parameterTest1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.course.testng.groups.*" />
+          <option name="PATTERN" value="com.course.testng.parameter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.course.testng.groups" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.groups.expectedException" />
-      <option name="METHOD_NAME" value="RuntimeExceptionSuccess" />
+      <option name="PACKAGE_NAME" value="com.course.testng.parameter" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.parameter.ParameterTest" />
+      <option name="METHOD_NAME" value="parameterTest1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -107,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.expectedException.RuntimeExceptionSuccess" />
-        <item itemvalue="TestNG.expectedException" />
-        <item itemvalue="TestNG.E:/workspace/AutoTest/Chapter/src/main/resources/GroupsOnClass.xml" />
-        <item itemvalue="TestNG.E:/workspace/AutoTest/Chapter/src/main/resources/groups.xml" />
-        <item itemvalue="TestNG.IgnoreTest" />
+        <item itemvalue="TestNG.E:/workspace/AutoTest/Chapter/src/main/resources/parameter.xml" />
+        <item itemvalue="TestNG.ParameterTest.parameterTest1" />
+        <item itemvalue="TestNG.ParameterTest" />
+        <item itemvalue="TestNG.DependTest.test1" />
+        <item itemvalue="TestNG.DependTest" />
       </list>
     </recent_temporary>
   </component>
