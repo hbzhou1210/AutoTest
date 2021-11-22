@@ -32,7 +32,42 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="TestNG.E:/workspace/AutoTest/Chapter/src/main/resources/parameter.xml">
+  <component name="RunManager" selected="TestNG.multiThreadTest">
+    <configuration name="DataProviderTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.testng.parameter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.testng.parameter" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.parameter.DataProviderTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataProviderTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.testng.parameter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.testng.parameter" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.parameter.DataProviderTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DependTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter" />
       <extension name="coverage">
@@ -68,45 +103,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E:/workspace/AutoTest/Chapter/src/main/resources/parameter.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter/src/main/resources/parameter.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParameterTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="multiThreadTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.course.testng.parameter.*" />
+          <option name="PATTERN" value="com.course.testng.multithread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.course.testng.parameter" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.parameter.ParameterTest" />
+      <option name="PACKAGE_NAME" value="com.course.testng.multithread" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.multithread.multiThreadTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParameterTest.parameterTest1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.testng.parameter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.course.testng.parameter" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.parameter.ParameterTest" />
-      <option name="METHOD_NAME" value="parameterTest1" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -115,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.E:/workspace/AutoTest/Chapter/src/main/resources/parameter.xml" />
-        <item itemvalue="TestNG.ParameterTest.parameterTest1" />
-        <item itemvalue="TestNG.ParameterTest" />
-        <item itemvalue="TestNG.DependTest.test1" />
+        <item itemvalue="TestNG.multiThreadTest" />
         <item itemvalue="TestNG.DependTest" />
+        <item itemvalue="TestNG.DependTest.test1" />
+        <item itemvalue="TestNG.DataProviderTest" />
+        <item itemvalue="TestNG.DataProviderTest.test2" />
       </list>
     </recent_temporary>
   </component>
