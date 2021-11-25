@@ -32,7 +32,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="TestNG.multiThreadTest">
+  <component name="RunManager" selected="TestNG.E:/workspace/AutoTest/Chapter/src/main/resources/multiThreadOnXml.xml">
     <configuration name="DataProviderTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter" />
       <extension name="coverage">
@@ -44,24 +44,6 @@
       <option name="PACKAGE_NAME" value="com.course.testng.parameter" />
       <option name="MAIN_CLASS_NAME" value="com.course.testng.parameter.DataProviderTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataProviderTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.testng.parameter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.course.testng.parameter" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.parameter.DataProviderTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -103,6 +85,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="E:/workspace/AutoTest/Chapter/src/main/resources/multiThreadOnXml.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter/src/main/resources/multiThreadOnXml.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="multiThreadTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter" />
       <extension name="coverage">
@@ -122,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.E:/workspace/AutoTest/Chapter/src/main/resources/multiThreadOnXml.xml" />
         <item itemvalue="TestNG.multiThreadTest" />
         <item itemvalue="TestNG.DependTest" />
         <item itemvalue="TestNG.DependTest.test1" />
         <item itemvalue="TestNG.DataProviderTest" />
-        <item itemvalue="TestNG.DataProviderTest.test2" />
       </list>
     </recent_temporary>
   </component>
