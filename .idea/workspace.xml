@@ -32,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/pom.xml" />
   </component>
@@ -47,24 +47,7 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.E:/workspace/AutoTest/Chapter/src/main/resources/multiThreadOnXml.xml">
-    <configuration name="DataProviderTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.testng.parameter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.course.testng.parameter" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.parameter.DataProviderTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.E:/workspace/AutoTest/Chapter2/src/main/resources/test-report.xml">
     <configuration name="DependTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter" />
       <extension name="coverage">
@@ -82,18 +65,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DependTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.testng.suite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.course.testng.suite" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.suite.DependTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
+    <configuration name="E:/workspace/AutoTest/Chapter2/src/main/resources/test-report.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter2" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter2/src/main/resources/test-report.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -104,6 +79,24 @@
       <module name="Chapter" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter/src/main/resources/multiThreadOnXml.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMethodsDemo.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tester.extend.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tester.extend.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.tester.extend.demo.TestMethodsDemo" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -129,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.E:/workspace/AutoTest/Chapter2/src/main/resources/test-report.xml" />
+        <item itemvalue="TestNG.TestMethodsDemo.test1" />
         <item itemvalue="TestNG.E:/workspace/AutoTest/Chapter/src/main/resources/multiThreadOnXml.xml" />
         <item itemvalue="TestNG.multiThreadTest" />
         <item itemvalue="TestNG.DependTest" />
-        <item itemvalue="TestNG.DependTest.test1" />
-        <item itemvalue="TestNG.DataProviderTest" />
       </list>
     </recent_temporary>
   </component>
