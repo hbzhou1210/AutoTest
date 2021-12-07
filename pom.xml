@@ -5,10 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.course.code</groupId>
     <artifactId>Chapter</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Chapter</module>
         <module>Chapter2</module>
+        <module>Chapter4</module>
     </modules>
 
 </project>
