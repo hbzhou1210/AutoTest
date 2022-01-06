@@ -8,8 +8,7 @@
     "response": {
       "text": "这是一个带cookie的get请求",
       "cookies": {
-        "login": "true",
-        "status": "10000"
+        "login": "true"
       }
     }
   },
@@ -43,7 +42,7 @@
       "status": 200,
       "json": {
         "huhansan": "success",
-        "status": 1,
+        "status": "1",
         "age": 18
       }
     }
