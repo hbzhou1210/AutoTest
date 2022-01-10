@@ -42,7 +42,7 @@
       "status": 200,
       "json": {
         "huhansan": "success",
-        "status": 1,
+        "status": "1",
         "age": 18
       }
     }

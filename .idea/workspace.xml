@@ -72,59 +72,16 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MyCookiesForGet.test2">
-    <configuration name="HttpClientGetDemo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter4" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
+  <component name="RunManager" selected="Application.sampleController">
+    <configuration name="sampleController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="helloworld.sampleController" />
+      <module name="Chapter6" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.course.HttpClient.demo.*" />
+          <option name="PATTERN" value="helloworld.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.course.HttpClient" />
-      <option name="MAIN_CLASS_NAME" value="com.course.HttpClient.demo.HttpClientGetDemo" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HttpClientGetDemo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter4" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.HttpClient.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.course.HttpClient" />
-      <option name="MAIN_CLASS_NAME" value="com.course.HttpClient.HttpClientGetDemo" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -185,28 +142,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HttpClientGetDemo" type="TestNG" temporary="true">
+      <configuration name="MyCookiesForGet (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+        <module name="Chapter4" />
+        <shortenClasspath name="NONE" />
+        <useClassPathOnly />
+        <extension name="coverage">
+          <pattern>
+            <option name="PATTERN" value="com.course.HttpClient.cookies.*" />
+            <option name="ENABLED" value="true" />
+          </pattern>
+        </extension>
+        <option name="SUITE_NAME" value="" />
+        <option name="PACKAGE_NAME" value="com.course.HttpClient.cookies" />
+        <option name="MAIN_CLASS_NAME" value="com.course.HttpClient.cookies.MyCookiesForGet" />
+        <option name="GROUP_NAME" value="" />
+        <option name="TEST_OBJECT" value="CLASS" />
+        <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
+        <option name="PARAMETERS" value="" />
+        <option name="OUTPUT_DIRECTORY" value="" />
+        <option name="TEST_SEARCH_SCOPE">
+          <value defaultName="moduleWithDependencies" />
+        </option>
+        <option name="PROPERTIES_FILE" value="" />
+        <properties />
+        <listeners />
+        <method v="2">
+          <option name="Make" enabled="true" />
+        </method>
+      </configuration>
+    </configuration>
     <configuration name="MyCookiesForGet (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter4" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.HttpClient.cookies.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.course.HttpClient.cookies" />
-      <option name="MAIN_CLASS_NAME" value="com.course.HttpClient.cookies.MyCookiesForGet" />
-      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -241,6 +208,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyCookiesForGet" type="TestNG" temporary="true" nameIsGenerated="true" />
     <configuration name="MyCookiesForGet.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter4" />
       <shortenClasspath name="NONE" />
@@ -256,7 +224,7 @@
       <option name="MAIN_CLASS_NAME" value="com.course.HttpClient.cookies.MyCookiesForGet" />
       <option name="METHOD_NAME" value="test1" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
@@ -270,29 +238,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyCookiesForGet.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <configuration name="MyCookiesForGet.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+        <module name="Chapter4" />
+        <shortenClasspath name="NONE" />
+        <useClassPathOnly />
+        <extension name="coverage">
+          <pattern>
+            <option name="PATTERN" value="com.course.HttpClient.cookies.*" />
+            <option name="ENABLED" value="true" />
+          </pattern>
+        </extension>
+        <option name="SUITE_NAME" value="" />
+        <option name="PACKAGE_NAME" value="com.course.HttpClient.cookies" />
+        <option name="MAIN_CLASS_NAME" value="com.course.HttpClient.cookies.MyCookiesForGet" />
+        <option name="METHOD_NAME" value="test1" />
+        <option name="METHOD_NAME" value="test2" />
+        <option name="GROUP_NAME" value="" />
+        <option name="TEST_OBJECT" value="METHOD" />
+        <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
+        <option name="PARAMETERS" value="" />
+        <option name="OUTPUT_DIRECTORY" value="" />
+        <option name="TEST_SEARCH_SCOPE">
+          <value defaultName="moduleWithDependencies" />
+        </option>
+        <option name="PROPERTIES_FILE" value="" />
+        <properties />
+        <listeners />
+        <method v="2">
+          <option name="Make" enabled="true" />
+        </method>
+      </configuration>
+    </configuration>
     <configuration name="MyCookiesForGet.test2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter4" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.HttpClient.cookies.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.course.HttpClient.cookies" />
-      <option name="MAIN_CLASS_NAME" value="com.course.HttpClient.cookies.MyCookiesForGet" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -343,19 +322,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.Unnamed" />
-      <item itemvalue="TestNG.HttpClientGetDemo" />
       <item itemvalue="TestNG.MyCookiesForGet" />
       <item itemvalue="TestNG.MyCookiesForGet.test1" />
       <item itemvalue="TestNG.MyCookiesForGet (1)" />
       <item itemvalue="TestNG.MyCookiesForGet.test2" />
+      <item itemvalue="Application.sampleController" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.sampleController" />
         <item itemvalue="TestNG.MyCookiesForGet.test2" />
         <item itemvalue="TestNG.MyCookiesForGet (1)" />
         <item itemvalue="TestNG.MyCookiesForGet" />
         <item itemvalue="TestNG.MyCookiesForGet.test1" />
-        <item itemvalue="TestNG.HttpClientGetDemo" />
       </list>
     </recent_temporary>
   </component>

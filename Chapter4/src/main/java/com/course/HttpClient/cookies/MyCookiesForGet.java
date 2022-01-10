@@ -2,11 +2,20 @@ package com.course.HttpClient.cookies;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.CookieStore;
+<<<<<<< HEAD
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.cookie.Cookie;
 import org.apache.http.impl.client.*;
+=======
+import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.cookie.Cookie;
+import org.apache.http.impl.client.BasicCookieStore;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
+>>>>>>> 836aa05ae94acef0683d5961e43bc280dcc77ffd
 import org.apache.http.util.EntityUtils;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -19,9 +28,14 @@ import java.util.ResourceBundle;
 public class MyCookiesForGet {
     private String url;
     private ResourceBundle bundle;
+<<<<<<< HEAD
     private String result;
     //存储cookie信息变量
     private CookieStore store;
+=======
+    //用来存储cookies信息的变量
+    private CookieStore cookieStore;
+>>>>>>> 836aa05ae94acef0683d5961e43bc280dcc77ffd
     @BeforeTest
     public void beforeTest(){
         bundle = ResourceBundle.getBundle("application", Locale.CHINA);
@@ -29,6 +43,7 @@ public class MyCookiesForGet {
     }
     @Test
     public void test1() throws IOException {
+<<<<<<< HEAD
         //获取cookie信息
         this.store = new BasicCookieStore();
         CloseableHttpClient httpClient = HttpClients.custom().setDefaultCookieStore(store).build();
@@ -69,4 +84,38 @@ public class MyCookiesForGet {
          }
 
      }
+=======
+        String result;
+        cookieStore = new BasicCookieStore();
+        HttpGet get = new HttpGet(this.url);
+        CloseableHttpClient client = HttpClients.custom().setDefaultCookieStore(cookieStore).build();
+        HttpResponse response = client.execute(get);
+        result = EntityUtils.toString(response.getEntity(),"utf-8");
+        System.out.println(result);
+        // 获取cookies信息
+        List<Cookie> cookies = cookieStore.getCookies();
+        for(Cookie cookie:cookies){
+            String name = cookie.getName();
+            String value = cookie.getValue();
+            System.out.println("cookies key ="+name+",cookies value ="+value);
+        }
+
+    }
+    @Test(dependsOnMethods = {"test1"})
+    public void test2() throws IOException {
+        String uri = bundle.getString("test.get.with.cookies");
+        String testUrl = bundle.getString("test.url")+uri;
+        HttpGet httpGet = new HttpGet(testUrl);
+        // 设置cookies信息
+        CloseableHttpClient client = HttpClients.custom().setDefaultCookieStore(this.cookieStore).build();
+        CloseableHttpResponse response = client.execute(httpGet);
+        // 获取响应的状态码
+        int statusCode = response.getStatusLine().getStatusCode();
+        System.out.println("statusCode = " + statusCode);
+        if(statusCode == 200){
+            String result = EntityUtils.toString(response.getEntity(),"utf-8");
+            System.out.println(result);
+        }
+    }
+>>>>>>> 836aa05ae94acef0683d5961e43bc280dcc77ffd
 }
