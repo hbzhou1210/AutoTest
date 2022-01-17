@@ -7,8 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Chapter2" />
+<<<<<<< HEAD
         <module name="Chapter5" />
+=======
+        <module name="Chapter" />
+>>>>>>> 2e947cf4554005a4867defca6bbf27cf7593d875
         <module name="Chapter4" />
+      </profile>
+      <profile name="Annotation profile for Chapter" enabled="true">
+        <sourceOutputDir name="Chapter/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="Chapter/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="AutoTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">

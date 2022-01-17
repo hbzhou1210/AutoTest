@@ -29,11 +29,17 @@
             <version>RELEASE</version>
             <scope>compile</scope>
         </dependency>
+<<<<<<< HEAD
         <!-- https://mvnrepository.com/artifact/org.json/json -->
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
             <version>20211205</version>
+=======
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+>>>>>>> 2e947cf4554005a4867defca6bbf27cf7593d875
         </dependency>
     </dependencies>
 
