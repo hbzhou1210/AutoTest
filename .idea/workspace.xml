@@ -29,9 +29,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Chapter3/startupWithCookie.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Chapter4/src/main/java/com/course/HttpClient/demo/HttpClientGetDemo.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Chapter3/startupWithCookie.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Chapter4/pom.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MavenRunner">
@@ -72,46 +72,20 @@
       <command value="mvn clean" />
     </option>
   </component>
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <component name="RunManager" selected="TestNG.MyCookiesForPost">
-=======
-  <component name="RunManager" selected="TestNG.MyCookiesForGet.test2">
->>>>>>> 2e947cf4554005a4867defca6bbf27cf7593d875
-    <configuration name="HttpClientGetDemo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter4" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.course.Application" />
+      <module name="Chapter7" />
       <extension name="coverage">
         <pattern>
-<<<<<<< HEAD
-          <option name="PATTERN" value="com.course.HttpClient.*" />
-=======
-          <option name="PATTERN" value="com.course.HttpClient.demo.*" />
->>>>>>> 2e947cf4554005a4867defca6bbf27cf7593d875
+          <option name="PATTERN" value="com.course.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.course.HttpClient" />
-<<<<<<< HEAD
-      <option name="MAIN_CLASS_NAME" value="com.course.HttpClient.HttpClientGetDemo" />
-=======
-      <option name="MAIN_CLASS_NAME" value="com.course.HttpClient.demo.HttpClientGetDemo" />
->>>>>>> 2e947cf4554005a4867defca6bbf27cf7593d875
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-=======
-  <component name="RunManager" selected="Application.sampleController">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="sampleController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="helloworld.sampleController" />
       <module name="Chapter6" />
@@ -121,35 +95,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
->>>>>>> 7f8174ef42057db19aa2eb6ffbfbffde4324131a
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HttpClientGetDemo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Chapter4" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.HttpClient.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.course.HttpClient" />
-      <option name="MAIN_CLASS_NAME" value="com.course.HttpClient.HttpClientGetDemo" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,26 +127,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <configuration name="MyCookiesForGet (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-=======
-    <configuration name="HttpClientGetDemo" type="TestNG" temporary="true">
->>>>>>> 2e947cf4554005a4867defca6bbf27cf7593d875
-      <module name="Chapter4" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.HttpClient.cookies.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.course.HttpClient.cookies" />
-      <option name="MAIN_CLASS_NAME" value="com.course.HttpClient.cookies.MyCookiesForGet" />
-      <option name="GROUP_NAME" value="" />
-=======
+    <configuration name="HttpClientGetDemo" type="TestNG" temporary="true" />
     <configuration name="HttpClientGetDemo" type="TestNG" temporary="true">
       <configuration name="MyCookiesForGet (1)" type="TestNG" temporary="true" nameIsGenerated="true">
         <module name="Chapter4" />
@@ -233,7 +159,6 @@
       </configuration>
     </configuration>
     <configuration name="MyCookiesForGet (1)" type="TestNG" temporary="true" nameIsGenerated="true">
->>>>>>> 7f8174ef42057db19aa2eb6ffbfbffde4324131a
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -241,15 +166,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <configuration name="MyCookiesForGet" type="TestNG" temporary="true" nameIsGenerated="true">
-=======
     <configuration name="MyCookiesForGet (1)" type="TestNG" temporary="true" nameIsGenerated="true">
->>>>>>> 2e947cf4554005a4867defca6bbf27cf7593d875
-=======
+      &gt;&gt;&gt;&gt;&gt;&gt;&gt; 7f8174ef42057db19aa2eb6ffbfbffde4324131a
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyCookiesForGet (1)" type="TestNG" temporary="true" nameIsGenerated="true" />
     <configuration name="MyCookiesForGet" type="TestNG" temporary="true" nameIsGenerated="true">
->>>>>>> 7f8174ef42057db19aa2eb6ffbfbffde4324131a
       <module name="Chapter4" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -277,16 +204,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <configuration name="MyCookiesForGet.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-=======
-    <configuration name="MyCookiesForGet" type="TestNG" temporary="true" nameIsGenerated="true">
->>>>>>> 2e947cf4554005a4867defca6bbf27cf7593d875
-=======
+    <configuration name="MyCookiesForGet" type="TestNG" temporary="true" nameIsGenerated="true" />
     <configuration name="MyCookiesForGet" type="TestNG" temporary="true" nameIsGenerated="true" />
     <configuration name="MyCookiesForGet.test1" type="TestNG" temporary="true" nameIsGenerated="true">
->>>>>>> 7f8174ef42057db19aa2eb6ffbfbffde4324131a
       <module name="Chapter4" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -299,14 +219,9 @@
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.course.HttpClient.cookies" />
       <option name="MAIN_CLASS_NAME" value="com.course.HttpClient.cookies.MyCookiesForGet" />
-<<<<<<< HEAD
-<<<<<<< HEAD
       <option name="METHOD_NAME" value="test1" />
-=======
->>>>>>> 2e947cf4554005a4867defca6bbf27cf7593d875
-=======
       <option name="METHOD_NAME" value="test1" />
->>>>>>> 7f8174ef42057db19aa2eb6ffbfbffde4324131a
+      &gt;&gt;&gt;&gt;&gt;&gt;&gt; 7f8174ef42057db19aa2eb6ffbfbffde4324131a
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
@@ -322,12 +237,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <configuration name="MyCookiesForGet.test2" type="TestNG" temporary="true" nameIsGenerated="true">
-=======
     <configuration name="MyCookiesForGet.test1" type="TestNG" temporary="true" nameIsGenerated="true">
->>>>>>> 2e947cf4554005a4867defca6bbf27cf7593d875
       <module name="Chapter4" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -340,11 +250,8 @@
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.course.HttpClient.cookies" />
       <option name="MAIN_CLASS_NAME" value="com.course.HttpClient.cookies.MyCookiesForGet" />
-<<<<<<< HEAD
       <option name="METHOD_NAME" value="test2" />
-=======
       <option name="METHOD_NAME" value="test1" />
->>>>>>> 2e947cf4554005a4867defca6bbf27cf7593d875
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
@@ -360,30 +267,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
-    <configuration name="MyCookiesForPost" type="TestNG" temporary="true" nameIsGenerated="true">
-=======
-    <configuration name="MyCookiesForGet.test2" type="TestNG" temporary="true" nameIsGenerated="true">
->>>>>>> 2e947cf4554005a4867defca6bbf27cf7593d875
-      <module name="Chapter4" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.HttpClient.cookies.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.course.HttpClient.cookies" />
-<<<<<<< HEAD
-      <option name="MAIN_CLASS_NAME" value="com.course.HttpClient.cookies.MyCookiesForPost" />
-=======
-      <option name="MAIN_CLASS_NAME" value="com.course.HttpClient.cookies.MyCookiesForGet" />
-      <option name="METHOD_NAME" value="test2" />
->>>>>>> 2e947cf4554005a4867defca6bbf27cf7593d875
-      <option name="GROUP_NAME" value="" />
-=======
     <configuration name="MyCookiesForGet.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <configuration name="MyCookiesForGet.test2" type="TestNG" temporary="true" nameIsGenerated="true">
         <module name="Chapter4" />
@@ -417,7 +300,24 @@
       </configuration>
     </configuration>
     <configuration name="MyCookiesForGet.test2" type="TestNG" temporary="true" nameIsGenerated="true">
->>>>>>> 7f8174ef42057db19aa2eb6ffbfbffde4324131a
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyCookiesForGet.test2" type="TestNG" temporary="true" nameIsGenerated="true" />
+    <configuration name="MyCookiesForGet.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      &gt;&gt;&gt;&gt;&gt;&gt;&gt; 7f8174ef42057db19aa2eb6ffbfbffde4324131a
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyCookiesForPost" type="TestNG" temporary="true" nameIsGenerated="true">
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -468,51 +368,18 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.sampleController" />
       <item itemvalue="TestNG.Unnamed" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 7f8174ef42057db19aa2eb6ffbfbffde4324131a
-      <item itemvalue="TestNG.MyCookiesForGet" />
-      <item itemvalue="TestNG.MyCookiesForGet.test1" />
       <item itemvalue="TestNG.MyCookiesForGet.test2" />
-<<<<<<< HEAD
       <item itemvalue="TestNG.MyCookiesForGet (1)" />
       <item itemvalue="TestNG.MyCookiesForPost" />
+      <item itemvalue="Application.Application" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application" />
         <item itemvalue="TestNG.MyCookiesForPost" />
-=======
-      <item itemvalue="Application.sampleController" />
-    </list>
-    <recent_temporary>
-      <list>
         <item itemvalue="Application.sampleController" />
-        <item itemvalue="TestNG.MyCookiesForGet.test2" />
->>>>>>> 7f8174ef42057db19aa2eb6ffbfbffde4324131a
-        <item itemvalue="TestNG.MyCookiesForGet (1)" />
-        <item itemvalue="TestNG.MyCookiesForGet.test2" />
-        <item itemvalue="TestNG.MyCookiesForGet.test1" />
-<<<<<<< HEAD
-        <item itemvalue="TestNG.MyCookiesForGet" />
-=======
-      <item itemvalue="TestNG.HttpClientGetDemo" />
-      <item itemvalue="TestNG.MyCookiesForGet" />
-      <item itemvalue="TestNG.MyCookiesForGet.test1" />
-      <item itemvalue="TestNG.MyCookiesForGet (1)" />
-      <item itemvalue="TestNG.MyCookiesForGet.test2" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="TestNG.MyCookiesForGet.test2" />
-        <item itemvalue="TestNG.MyCookiesForGet (1)" />
-        <item itemvalue="TestNG.MyCookiesForGet" />
-        <item itemvalue="TestNG.MyCookiesForGet.test1" />
-        <item itemvalue="TestNG.HttpClientGetDemo" />
->>>>>>> 2e947cf4554005a4867defca6bbf27cf7593d875
-=======
->>>>>>> 7f8174ef42057db19aa2eb6ffbfbffde4324131a
       </list>
     </recent_temporary>
   </component>

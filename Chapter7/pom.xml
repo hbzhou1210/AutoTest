@@ -41,6 +41,9 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.25</version>
         </dependency>
+        <!--当启用springboot项目要将把这个先注释掉，要不让启动报错-->
+        <!-- Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-18 21:44:26.969 [main] ERROR org.springframework.boot.SpringApplication - Application run failed -->
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
